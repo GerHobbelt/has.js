@@ -142,7 +142,7 @@
        return true if is a browser
       */
     has.add("browser", function (g, d) {
-      return !!(typeof g.window !== "undefined" && g.navigator && g.d);    
+      return !!(typeof window !== "undefined" && navigator && document);    
     });  
 
     // Stop repeat background-image requests and reduce memory consumption in IE6 SP1
