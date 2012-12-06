@@ -1,0 +1,13 @@
+{
+    "name": "has",
+    "version": "0.0.1-jam.1",
+    "description": "Pure feature detection library, a la carte style.",
+    "github": "https://github.com/phiggins42/has.js",
+    "jam": {
+        "main": "has.js",
+        "include": [
+            "has.js",
+            "detect"
+        ]
+    }
+}
